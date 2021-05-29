@@ -1,0 +1,347 @@
+/* reseteo de las propiedades de las páginas del sitio web */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* características de la fuente tipográfica del sitio web */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+/* partes fijas de cada página del sitio web */
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #007c91;
+  padding: 10px;
+  height: 180px;
+}
+.nombre__app {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+/*propiedades flex del menu*/
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* propiedades decorativas del menu de navegación */
+.menu {
+  background-color: #ffbc45;
+  padding: 10px;
+  display: inline;
+  font-size: 20px;
+  position: static;
+}
+.menu {
+  float: left;
+  margin-top: 10px;
+  width: 1330px;
+  height: 50px;
+}
+.menu li {
+  border-right: 1px solid #9b9a9a;
+  float: left;
+  list-style: none outside none;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: auto;
+}
+.menu li:last-child {
+  border-right: none;
+}
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #9b9a9a;
+  text-decoration: none;
+}
+.menu .menu--categorías a {
+  color: #9b9a9a;
+  text-decoration: none;
+}
+.menu .menu--categorías a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.menu--categorías {
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* terminan las propiedades decorativas del menu de navegación */
+/* títulos principales */
+.título__principal {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #007c91;
+  text-align: center;
+}
+/* características del contenedor grid */
+.secciones__contenedor {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "cuenta cuenta"
+    "cursos tareas"
+    "entregas entregas";
+  column-gap: 2px;
+  row-gap: 2px;
+  justify-items: stretch;
+  justify-content: center;
+}
+.cuenta {
+  grid-area: cuenta;
+}
+.cursos {
+  grid-area: cursos;
+}
+.tareas {
+  grid-area: tareas;
+}
+.entregas {
+  grid-area: entregas;
+}
+/* propiedades decorativas de secciones */
+.cuenta {
+  background-image: url(./Multimedia/secciones/account.png);
+  height: 340px;
+  width: 1275px;
+  margin: 20px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.cursos {
+  background-image: url(./Multimedia/secciones/cursos.png);
+  height: 340px;
+  width: 600px;
+  margin: 20px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.tareas {
+  background-image: url(./Multimedia/secciones/tareas\ 2.png);
+  height: 340px;
+  width: 600px;
+  margin: 20px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.entregas {
+  background-image: url(./Multimedia/secciones/entregas1.png);
+  height: 340px;
+  width: 1275px;
+  margin: 20px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.secciones {
+  font-size: 23px;
+  font-weight: bolder;
+  color: #007c91;
+}
+/* características del texto que acompaña cada sección */
+.texto {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.6;
+  position: relative;
+}
+/* propiedades de las listas no numeradas */
+ul {
+  list-style-type: none;
+}
+/*propiedades flex del footer*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #007c91;
+  padding: 10px;
+}
+/* propiedades decorativas del footer */
+.footer li {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  position: relative;
+}
+.footer li a {
+  line-height: 1.6;
+  color: white;
+}
+.footer li p {
+  line-height: 1.6;
+  color: white;
+}
+/* terminan las propiedades decorativas del footer */
+/* página acerca de */
+.título__general {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #007c91;
+}
+.texto__normal {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.6;
+  position: relative;
+}
+/*propiedades de foto */
+.foto__app {
+  position: relative;
+  text-align: center;
+}
+/* propiedades de tabla comparativa*/
+#tabla {
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  width: 800px;
+  margin: 0 auto;
+}
+#tabla th {
+  border-bottom: 1px solid #000000;
+  padding: 2px;
+  text-align: center;
+}
+#tabla td {
+  padding: 2px;
+  text-align: center;
+}
+/* fin de propiedades de tabla comparativa */
+.título__general__negro {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+#videos {
+  background-image: linear-gradient(to bottom, #007c91, #f98b00);
+}
+.iframe {
+  text-align: center;
+}
+/* propiedades página FAQs*/
+.preguntas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1020px;
+}
+/*propiedades página contacto*/
+.contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 1020px;
+}
+.formulario {
+  background-color: #ffbc45;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.6;
+  height: 250px;
+  width: 490px;
+}
+.formulario h1 {
+  font-size: 22px;
+}
+/*transiciones de la página de contacto*/
+.formulario input {
+  width: 100px;
+  height: 25px;
+  transition: all 2s;
+}
+.formulario input:focus {
+  width: 120px;
+  font-size: 24px;
+}
+
+.opciones__radio {
+  display: inline;
+  width: 10px;
+  height: 20px;
+  transition: height 2s, width 1s;
+}
+.opciones__radio:hover {
+  height: 21px;
+  width: 11px;
+}
+.botón {
+  width: 100px;
+  height: 30px;
+  transition: all 2s;
+}
+.botón:hover {
+  height: 40px;
+  width: 110px;
+  padding: 20px;
+  background-color: #007c91;
+}
+/*propiedades de la página descargas*/
+.descargas__contenedor {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "stickers stickers"
+    "rúbricas rúbricas";
+  column-gap: 150px;
+  row-gap: 1px;
+  justify-items: stretch;
+  justify-content: center;
+}
+.stickers {
+  background-color: #f98b00;
+  height: 380px;
+  width: 400px;
+}
+.rúbricas {
+  background-color: #00acc1;
+  height: 380px;
+  width: 400px;
+  position: relative;
+  text-align: center;
+}
+.secciones__blanco {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.stickers {
+  position: relative;
+  text-align: center;
+}
