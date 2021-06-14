@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 80%; }
+
+.funciones {
+  display: flex;
+  flex-direction: column; }
+  .funciones__sección {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fdfdfd;
+    text-align: center;
+    background-color: #007c91;
+    width: 1200px;
+    margin-left: 80px; }
+    .funciones__sección--texto {
+      font-size: 16px;
+      border: 1 px;
+      background-color: #ffbc45;
+      width: 1200px;
+      margin-left: 80px;
+      height: 120px;
+      line-height: 40px; }

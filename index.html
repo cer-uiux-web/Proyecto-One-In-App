@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./stylesheet.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="encabezado">
@@ -38,41 +39,59 @@
     </header>
     <main>
       <!--Inicia sección principal de información-->
-      <div>
-      <br>
       <br>
       <br>
       <br>
         <h2 class="título__principal">Todo lo que necesitás saber para aprovechar One-In al máximo</h2>
+      <br>
+      <br>
+      <br>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Multimedia/secciones/cuentamock.jpg" class="d-block w-100" alt="Cuenta">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class= "caption">Cuenta</h1>
+              <p class= "subcaption">Información sobre configuración y preferencias de perfil.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Multimedia/secciones/cursos varios.jpg" class="d-block w-100" alt="Cursos">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class= "caption">Cursos</h1>
+              <p class= "subcaption">Administra tus cursos, crear o importa lista de estudiantes y más.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Multimedia/secciones/tareas1.png" class="d-block w-100" alt="Tareas">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class= "caption">Tareas</h1>
+              <p class= "subcaption">Aprende a crear y asignar actividades / evaluaciones interactivas.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img src="./Multimedia/secciones/entregas1.png" class="d-block w-100" alt="Entregas">
+          <div class="carousel-caption d-none d-md-block">
+             <h1 class= "caption">Entregas</h1>
+             <p class= "subcaption">Conoce todo el potencial de One-In. Chequea el estado de tareas y/o evaluaciones. Conoce las herramientas integrales de corrección.</p>
+            </div> 
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <section class= "secciones__contenedor">
-      <div class="cuenta">
-        <h3 class="secciones">Cuenta</h3> 
-        <p class="texto">Información sobre configuración y preferencias de perfil.</p>
-      </div>
-      <div class="cursos">
-        <h3 class="secciones">Cursos</h3>
-        <p class="texto">
-          Administra tus cursos, crear o importa lista de estudiantes y más.</p>
-      </div> 
-      <div class="tareas">
-          <h3 class="secciones">Tareas</h3>
-        <p class="texto">
-          Aprende a crear y asignar actividades / evaluaciones interactivas.
-        </p>
-      </div>
-      <div class="entregas">
-        <h3 class="secciones">Entregas</h3>
-        <p class="texto">
-          Conoce todo el potencial de One-In.
-        <br>
-          Chequea el estado de tareas y/o
-          evaluaciones.
-          <br>
-          Conoce las herramientas integrales de corrección.
-        </p>
-      </div>
-    </section>
     </main>
       <!--Termina sección principal de información-->
    <footer>
@@ -83,5 +102,7 @@
           <li><p>2021 One-In App Docente</p></li>
       </footer>
       <!--Termina sección datos de contacto-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
   </body>
 </html>

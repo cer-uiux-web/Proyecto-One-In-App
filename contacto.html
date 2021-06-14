@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./stylesheet.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   </head>
   <body>
     <body>
@@ -37,41 +38,47 @@
       </header>
       <main>
         <br>
-            <br>
-            <br>
-            <br>
-          <div class="contacto"><!-- Formulario de contacto-->
-            <form class="formulario">
-              <fieldset>
-              <legend><h1> Contáctenos</h1></legend>
-              <!--Campos del formulario-->
-              <label for="nombre_apellido">Nombre:</label>
-              <input type="text" name="nombre_apellido"/>
-              <br>
-              <label for="email">Email</label>
-              <input type="email" name="email"/>
-              <br>
-              <label for="perfil">Perfil:</label>
-              <div class="opciones__radio">Docente</div>
-              <input type="radio" name="perfil" value="docente"/>
-              <div class="opciones__radio">Estudiante</div>
-              <input type="radio" name="perfil" value="estudiante"/>
-              <br>
-              <label for="nivel educativo">Nivel educativo:</label>
-              <select name="nivel educativo">
-              <option value="primario">primario</option>
-              <option value="secundario">secundario</option>
-              <option value="superior">superior</option>
-              </select>
-              <br>
-              <label for="consulta">Consulta:</label>
-              <input type="text" name="consulta"/>
-              <br>
-              <input class="botón" type="submit" value="Enviar"/>
-              <input class="botón" type="reset" value="Limpiar"/>
-               </fieldset>
-            </form>
-          </div>
+        <br>
+        <br>
+      <div><!-- Formulario de contacto-->
+          <h3> Contáctenos</h3>
+          <!--Campos del formulario-->
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <div> <h5>Perfil</h5></div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Docente
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Estudiante
+          </label>
+        </div>
+        <div><h5>Usted se desempeña en:</h5></div>
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+          <option selected>Selecciona tu nivel educativo</option>
+          <option value="1">Primario</option>
+          <option value="2">Secundario</option>
+          <option value="3">Superior</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-info btn-sm">Enviar</button>
+        <button type="button" class="btn btn-warning btn-sm">Limpiar formulario</button>
+
+        </div>
       </main>
       <br>
         <!--Comienza sección datos de contacto-->
@@ -83,5 +90,7 @@
             <li><p>2021 One-In App Docente</p></li>
         </footer>
         <!--Termina sección datos de contacto-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
   </body>
 </html>

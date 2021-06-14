@@ -88,68 +88,15 @@ html {
   color: #007c91;
   text-align: center;
 }
-/* características del contenedor grid */
-.secciones__contenedor {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "cuenta cuenta"
-    "cursos tareas"
-    "entregas entregas";
-  column-gap: 2px;
-  row-gap: 2px;
-  justify-items: stretch;
-  justify-content: center;
+.caption {
+  font-size: 28 px;
+  font-weight: bolder;
+  color: black;
 }
-.cuenta {
-  grid-area: cuenta;
-}
-.cursos {
-  grid-area: cursos;
-}
-.tareas {
-  grid-area: tareas;
-}
-.entregas {
-  grid-area: entregas;
-}
-/* propiedades decorativas de secciones */
-.cuenta {
-  background-image: url(./Multimedia/secciones/account.png);
-  height: 340px;
-  width: 1275px;
-  margin: 20px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
-}
-.cursos {
-  background-image: url(./Multimedia/secciones/cursos.png);
-  height: 340px;
-  width: 600px;
-  margin: 20px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
-}
-.tareas {
-  background-image: url(./Multimedia/secciones/tareas\ 2.png);
-  height: 340px;
-  width: 600px;
-  margin: 20px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
-}
-.entregas {
-  background-image: url(./Multimedia/secciones/entregas1.png);
-  height: 340px;
-  width: 1275px;
-  margin: 20px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
+.subcaption {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
 }
 .secciones {
   font-size: 23px;
@@ -265,7 +212,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 800px;
   width: 1020px;
 }
 .formulario {
@@ -344,4 +291,16 @@ ul {
 .stickers {
   position: relative;
   text-align: center;
+}
+/* estilos para tablet*/
+@media screen (min-width: 768px) (max-width: 940px) {
+  #carouselExampleCaptions {
+    width: 600px;
+  }
+}
+/*estilos para smartphone*/
+@media screen (min-width: 400px) (max-width: 767px) {
+  #carouselExampleCaptions {
+    width: 400px;
+  }
 }

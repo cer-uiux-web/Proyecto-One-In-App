@@ -1,0 +1,22 @@
+.funciones {
+  display: flex;
+  flex-direction: column;
+  &__sección {
+    font-size: $size * 3;
+    font-weight: bolder;
+    color: #fdfdfd;
+    text-align: center;
+    background-color: $color-app-uno;
+    width: $tamaño * 60;
+    margin-left: $tamaño * 4;
+    &--texto {
+      font-size: $size * 2;
+      border: 1 px;
+      background-color: $color-app-tres;
+      width: 1200px;
+      margin-left: $tamaño * 4;
+      height: $tamaño * 6;
+      line-height: $tamaño * 2;
+    }
+  }
+}
