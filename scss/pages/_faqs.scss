@@ -1,0 +1,19 @@
+/* propiedades página FAQs*/
+.hero__faqs {
+  background-image: url(https://www.ancbroker.com/blog/slide/30326/%E0%B8%9B%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg);
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+}
+.preguntas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1020px;
+}
