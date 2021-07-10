@@ -7,116 +7,108 @@
     <meta name="description" content="Instructivo y características de One-In App Docente.">
     <meta name="keywords" content="instrucciones, instructivo, características, funciones, herramientas">
     <title> One-In App - Funcionalidades</title>
-    <link rel="stylesheet" href="./stylesheet.css"/>
+    <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel= "stylesheet" href= "css/main.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="./css/main.css"/>
+    <!--Animation CSS-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
+    <!--Bootstrap CSS-->
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar bg-warning">
-      <a class="navbar-brand fs-4 fw-bold text-dark" href="index.html"
-        ><img
-          src="./Multimedia/logo/logo_one-in mediano.png"
-          width="80"
-          height="80"
-          class="d-inline-block align-center"
-          alt="Logo de la aplicación"
-        />One-In App Docente</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav text-dark">
-          <a class="nav-item nav-link active fs-5 fw-bold" href="./index.html"
-            >Home<span class="sr-only"></span
-          ></a>
-          <a class="nav-item nav-link fs-5 fw-bold" href="./acerca.html">Acerca de</a>
-          <a class="nav-item nav-link fs-5 fw-bold" href="./funcionalidades.html"
-            >Funcionalidades</a
-          >
-          <a class="nav-item nav-link fs-5 fw-bold" href="./consejos.html">Consejos</a>
-          <a class="nav-item nav-link fs-5 fw-bold" href="./videotutoriales.html"
-            >Videotutoriales</a
-          >
-          <a class="nav-item nav-link fs-5 fw-bold" href="./faqs.html">FAQs</a>
-          <a class="nav-item nav-link fs-5 fw-bold" href="./descargas.html">Descargas</a>
-          <form
-            class="menu--categorías"
-            action="https://www.google.com/search"
-            method="get"
-          >
+    <!--Nav Bar-->
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4 fw-bold text-dark" href="index.html"><img
+            src="./Multimedia/logo/logo_one-in mediano.png"
+            alt="Logo de la aplicación"
+            width="80"
+            height="80"
+            class="d-inline-block align-center"/>One-In App Docente</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav"">
+              <a class="nav-link active fs-5 fw-bold" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link fs-5 fw-bold" href="./acerca.html">Acerca de</a>
+              <a class="nav-link fs-5 fw-bold" href="./funcionalidades.html">Funcionalidades</a>
+              <a class="nav-link fs-5 fw-bold" href="./consejos.html">Consejos</a>
+              <a class="nav-link fs-5 fw-bold" href="./videotutoriales.html">Videotutoriales</a>
+              <a class="nav-link fs-5 fw-bold" href="./faqs.html">FAQs</a>
+              <a class="nav-link fs-5 fw-bold" href="./descargas.html">Descargas</a>
+            </div>
+            <form class="buscador" action="https://www.google.com/search" method="get">
             <input type="text" id="buscar" name="q" />
-            <input type="submit" value="Buscar" id="buscador" />
-          </form>
+            <input type="submit" value="Buscar" id="boton" />
+            </form>
+         </div>
         </div>
       </div>
-    </nav>
+      </nav>
+        <!--Fin Nav Bar-->
+     </div>
     <main>
-      <div class="hero__funcionalidades">
-        <br>
-        <br>
-          <h1 class= "display-4 fw-bold text-dark">One-In App Docente:</h1>
-          <p class= "fs-4 text-dark"><em>La aplicación que integra funcionalidades de múltiples herramientas</em></p>
-          <p class= "fs-4 text-dark"><em>para gestionar tus cursos, corregir tareas,</em></p>
-          <p class= "fs-4 text-dark"><em>registrar calificaciones y enviar feedback a cada estudiante.</em></p>
-        </div>
-        </div>
+      <!--Hero Página Funcionalidades-->
+      <section class= "hero__funcionalidades">
+      <div class= "container">
+        <h1 class= "display-4 fw-bold text-dark">One-In App Docente:</h1>
+          <div class="row">
+          <div class="col-md-7">
+            <p class= "fs-4 text-dark"><em>La aplicación que integra funcionalidades de múltiples herramientas</em></p>
+            <p class= "fs-4 text-dark"><em>para gestionar tus cursos, corregir tareas,</em></p>
+            <p class= "fs-4 text-dark"><em>registrar calificaciones y enviar feedback a cada estudiante.</em></p>
+          </div>
       </div>
-      <main>
-          <div>
-          <br>
-          <h1 class="título__principal">Funcionalidades</h1>
-          <h2 class="título__general__negro">Cómo emplear One-In App Docente al máximo. Descripción e instructivo</h2>
-          <br>
-          <section class="funciones"><h3 class="funciones__sección">Cuenta</h3>
-              <p class= "funciones__sección--texto">Los usuarios pueden registrarse como docentes y/o estudiantes. Es decir, en caso de que un profesor/a realice capacitaciones por instituciones o docentes que implementen esta aplicación, pueden generar ambos perfiles.
-            Cada usuario tiene la opción de crear una cuenta exclusiva de la app o registrarse a travás de cuentas asociadas Gmail, Hotmail o Facebook.</p> <section/>
-          <section class="funciones"><h3 class="funciones__sección">Cursos</h3>
-              <p class= "funciones__sección--texto">Para establecer cursos, primero se deben crear listas de estudiantes. Se pueden ingresar los datos de cada estudiante manualmente o importar listas en archivos con formato .xls o .doc
-            Al crear la lista, se debe indicar el nombre del curso deseado y generar un código de acceso para los estudiantes.</p> <section/>
-            <section class="funciones"><h3 class="funciones__sección">Tareas</h3>
-              <p class= "funciones__sección--texto">En la versión actual de la aplicación, el docente puede indicar el nombre de la actividad asignada, incluir una breve descripción y visualizar el archivo de dicha tarea. En próximas versiones, se habilitará la función para diseñar / editar actividades interactivas con la app.</p></section>
-              <br>
-              <div class= "foto__app">
-                <img src="./Multimedia/app/entregas_visualización_tareas.gif" alt="Cómo visualizar tareas" width="400" height="300"/>
-              </div>
-              <br>
-        <section class="funciones"><h3 class="funciones__sección">Entregas</h3>
-              <p class= "funciones__sección--texto">Al ingresar figurarán notificaciones de entregas realizadas por estudiantes. En esta sección, encontrará un resumen general (de todos los cursos) sobre las tareas pendientes por corregir, en proceso de corrección o corregidas. A continuación, figurará cada curso registrado y al expandir cada subsección podrá ver las entregas hasta el momento. Si necesita localizar tareas de un curso o estudiante específico, puede efectuar una búsqueda avanzada.</p>
-        <section/>
-            </main>
-            <br>
-            <br>
-            <br>
-           <!-- Footer -->
-           <footer class="bg-warning text-center text-dark">
-           <!-- Grid container -->
-           <div class="container p-4">
-            <!-- Grid container -->
-         <div class="container p-4">
-           <!-- Section: Social media -->
-           <section class="mb-4">
+     </section>
+      <!--Fin Hero Página Funcionalidades-->
+      <!--Comienza la sección principal sobre las funciones de la app-->
+      <div class="container"> 
+      <div class="row justify-content-center">
+          <div class="col-12">
+           <h1 class= "display-6 fw-bold text-center text-dark">Funcionalidades</h1>
+            <h2 class= "display-7 fst-italic text-center text-dark">Cómo emplear One-In App Docente al máximo. Descripción e instructivo</h2>
+          </div>
+          <div class="col-12">
+            <div class="p-3 mb-2 bg-danger text-center text-white"><h3>Cuenta</h3></div>
+              <p class= "fs-4 text-dark">Los usuarios pueden registrarse como docentes y/o estudiantes. Es decir, en caso de que un profesor/a realice capacitaciones por instituciones o docentes que implementen esta aplicación, pueden generar ambos perfiles.
+            Cada usuario tiene la opción de crear una cuenta exclusiva de la app o registrarse a travás de cuentas asociadas Gmail, Hotmail o Facebook.</p>
+          </div>
+          <div class="col-12">
+            <div class="p-3 mb-2 bg-warning text-center text-dark"><h3>Cursos</h3></div>
+              <p class= "fs-4 text-dark">Para establecer cursos, primero se deben crear listas de estudiantes. Se pueden ingresar los datos de cada estudiante manualmente o importar listas en archivos con formato .xls o .doc
+            Al crear la lista, se debe indicar el nombre del curso deseado y generar un código de acceso para los estudiantes.</p>
+          </div>
+          <div class="col-12">
+            <div class="p-3 mb-2 bg-info text-center text-dark"><h3>Tareas</h3></div>
+              <p class= "fs-4 text-dark">En la versión actual de la aplicación, el docente puede indicar el nombre de la actividad asignada, incluir una breve descripción y visualizar el archivo de dicha tarea. En próximas versiones, se habilitará la función para diseñar / editar actividades interactivas con la app.</p>
+          </div>
+          <div class="text-center">
+            <div>
+             <img src="./Multimedia/app/entregas_visualización_tareas.gif" class="rounded" alt="Cómo visualizar tareas" width="400" height="300"/>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="p-3 mb-2 bg-success text-center text-white"><h3>Entregas</h3></div>
+              <p class= "fs-4 text-dark">Al ingresar figurarán notificaciones de entregas realizadas por estudiantes. En esta sección, encontrará un resumen general (de todos los cursos) sobre las tareas pendientes por corregir, en proceso de corrección o corregidas. A continuación, figurará cada curso registrado y al expandir cada subsección podrá ver las entregas hasta el momento. Si necesita localizar tareas de un curso o estudiante específico, puede efectuar una búsqueda avanzada.</p>
+          </div>
+        </div>
+      </div> 
+      <!--Termina la sección principal sobre las funciones de la app-->
+    </main>
+      <!-- Footer -->
+      <footer class="bg-warning text-center text-dark">
+      <!-- Grid container -->
+      <div class="container p-4">
+      <!-- Grid container -->
+      <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
              <!-- Facebook -->
              <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/" role="button" target="_blank"
                ><i class="fab fa-facebook-f"></i
@@ -227,15 +219,7 @@
              </div>
            </div>
            </footer>
-           <script
-             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-             crossorigin="anonymous"
-           ></script>
-           <script
-             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-             integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-             crossorigin="anonymous"
-           ></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

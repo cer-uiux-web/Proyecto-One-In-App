@@ -1,13 +1,17 @@
 /* página acerca */
 .hero__acerca {
-  background-image: url(https://www.glassdoor.com/blog/app/uploads/sites/2/iStock-587785664-e1509139447178-1024x450.jpg);
+  background-image: url("https://www.impulsonegocios.com/wp-content/uploads/2019/04/bienestar-digital-nokia-DEF.jpg");
   width: 100%;
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-top: 350px;
+  padding-top: 100px;
+  & p {
+    margin: 10px;
+  }
 }
+
 .text__color__principal {
   color: $color-app-uno;
 }
