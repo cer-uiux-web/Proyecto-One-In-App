@@ -1,4 +1,5 @@
-/* propiedades página FAQs*/
+/*Propiedades página FAQs*/
+/*Propiedades del hero página FAQs*/
 .hero__faqs {
   background-image: url(https://www.ancbroker.com/blog/slide/30326/%E0%B8%9B%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg);
   width: 100%;
@@ -8,6 +9,8 @@
   background-position: center;
   padding-top: 50px;
 }
+/*Fin propiedades del hero página FAQs*/
+/*Propiedades del texto página FAQs*/
 .preguntas {
   display: flex;
   flex-direction: row;
@@ -17,3 +20,4 @@
   height: 500px;
   width: 1020px;
 }
+/*Fin propiedades del texto página FAQs*/

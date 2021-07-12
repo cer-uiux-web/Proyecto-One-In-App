@@ -1,6 +1,8 @@
+/* Propiedades decorativas de la página de videotutoriales*/
 .text__color__principal {
   color: $color-app-uno;
 }
+/*Propiedades del hero de la página de videotutoriales*/
 .hero__index {
   background-image: url(https://www.bupasalud.com/sites/default/files/portada/2018-07/mobile/bienestar-bupa_767.jpg);
   width: 100%;
@@ -9,36 +11,6 @@
   background-size: cover;
   background-position: bottom center;
   padding-top: 120px;
+  padding-left: 5px;
 }
-/* títulos principales */
-.título__principal {
-  font-size: 28px;
-  font-weight: bolder;
-  color: #007c91;
-  text-align: center;
-}
-.caption {
-  font-size: 28 px;
-  font-weight: bolder;
-  color: black;
-}
-.subcaption {
-  font-size: 20px;
-  font-weight: normal;
-  color: #000000;
-}
-.secciones {
-  font-size: 23px;
-  font-weight: bolder;
-  color: #007c91;
-}
-/* características del texto que acompaña cada sección */
-.texto {
-  font-size: 18px;
-  font-weight: bold;
-  color: black;
-  font-style: italic;
-  text-align: justify;
-  line-height: 1.6;
-  position: relative;
-}
+/*Propiedades del hero de la página de videotutoriales*/

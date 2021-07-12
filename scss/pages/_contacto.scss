@@ -1,4 +1,4 @@
-/*propiedades página contacto*/
+/*Propiedades página contacto*/
 .hero__contacto {
   background-image: url(http://www.ctec.com.ar/new/images/cursos/fondo-marketing-digital.jpg);
   width: 100%;
@@ -8,64 +8,4 @@
   background-position: bottom center;
   padding-top: 280px;
 }
-.título__form {
-  margin-left: 250px;
-}
-.form__container {
-  width: 900px;
-  height: 600px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-.contacto {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  width: 1020px;
-}
-.formulario {
-  background-color: #ffbc45;
-  padding: 10px;
-  font-size: 20px;
-  line-height: 1.6;
-  height: 250px;
-  width: 490px;
-}
-.formulario h1 {
-  font-size: 22px;
-}
-/*transiciones de la página de contacto*/
-.formulario input {
-  width: 100px;
-  height: 25px;
-  transition: all 2s;
-}
-.formulario input:focus {
-  width: 120px;
-  font-size: 24px;
-}
-
-.opciones__radio {
-  display: inline;
-  width: 10px;
-  height: 20px;
-  transition: height 2s, width 1s;
-}
-.opciones__radio:hover {
-  height: 21px;
-  width: 11px;
-}
-.botón {
-  width: 100px;
-  height: 30px;
-  transition: all 2s;
-}
-.botón:hover {
-  height: 40px;
-  width: 110px;
-  padding: 20px;
-  background-color: #007c91;
-}
+/*Fin propiedades página contacto*/

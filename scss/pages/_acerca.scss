@@ -1,4 +1,4 @@
-/* página acerca */
+/*Propiedades decorativas del hero - página acerca*/
 .hero__acerca {
   background-image: url("https://www.impulsonegocios.com/wp-content/uploads/2019/04/bienestar-digital-nokia-DEF.jpg");
   width: 100%;
@@ -11,37 +11,4 @@
     margin: 10px;
   }
 }
-
-.text__color__principal {
-  color: $color-app-uno;
-}
-/*propiedades de foto */
-.foto__app {
-  position: relative;
-  text-align: center;
-}
-/* propiedades de tabla comparativa*/
-#tabla {
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  width: 800px;
-  margin: 0 auto;
-}
-#tabla th {
-  border-bottom: 1px solid #000000;
-  padding: 2px;
-  text-align: center;
-}
-#tabla td {
-  padding: 2px;
-  text-align: center;
-}
-/* fin de propiedades de tabla comparativa */
-.título__general__negro {
-  font-size: 23px;
-  font-weight: bold;
-  text-align: center;
-  color: #000000;
-}
+/*Fin propiedades decorativas del hero - página acerca*/

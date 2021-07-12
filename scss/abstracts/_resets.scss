@@ -1,13 +1,14 @@
-/* reseteo de las propiedades de las páginas del sitio web */
+/*Reseteo de las propiedades de las páginas del sitio web */
 * {
   margin: 0;
   padding: 0;
 }
-/* características de la fuente tipográfica del sitio web */
+/*Características de la fuente tipográfica del sitio web */
 html {
   font-family: "Roboto", sans-serif;
   font-size: 80%;
 }
+/*Características del botón de búsqueda de la nav*/
 #boton {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -22,3 +23,4 @@ html {
   width: 130px;
   height: 30px;
 }
+/* Fin características del botón de búsqueda de la nav*/

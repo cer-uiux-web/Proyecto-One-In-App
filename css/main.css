@@ -1,14 +1,15 @@
 @charset "UTF-8";
-/* reseteo de las propiedades de las páginas del sitio web */
+/*Reseteo de las propiedades de las páginas del sitio web */
 * {
   margin: 0;
   padding: 0; }
 
-/* características de la fuente tipográfica del sitio web */
+/*Características de la fuente tipográfica del sitio web */
 html {
   font-family: "Roboto", sans-serif;
   font-size: 80%; }
 
+/*Características del botón de búsqueda de la nav*/
 #boton {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +24,8 @@ html {
   width: 130px;
   height: 30px; }
 
-/*propiedades decorativas de página funcionalidades*/
+/* Fin características del botón de búsqueda de la nav*/
+/*Propiedades decorativas de página funcionalidades*/
 .hero__funcionalidades {
   background-image: url(https://t4t6b3a6.stackpathcdn.com/wp-content/uploads/2019/02/Desarrollo-APPs-rd.png);
   width: 100%;
@@ -34,9 +36,12 @@ html {
   padding-top: 8vh;
   padding-bottom: 30vh; }
 
+/*Fin propiedades decorativas de página funcionalidades*/
+/* Propiedades decorativas de la página de videotutoriales*/
 .text__color__principal {
   color: #007c91; }
 
+/*Propiedades del hero de la página de videotutoriales*/
 .hero__index {
   background-image: url(https://www.bupasalud.com/sites/default/files/portada/2018-07/mobile/bienestar-bupa_767.jpg);
   width: 100%;
@@ -44,41 +49,11 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  padding-top: 120px; }
+  padding-top: 120px;
+  padding-left: 5px; }
 
-/* títulos principales */
-.título__principal {
-  font-size: 28px;
-  font-weight: bolder;
-  color: #007c91;
-  text-align: center; }
-
-.caption {
-  font-size: 28 px;
-  font-weight: bolder;
-  color: black; }
-
-.subcaption {
-  font-size: 20px;
-  font-weight: normal;
-  color: #000000; }
-
-.secciones {
-  font-size: 23px;
-  font-weight: bolder;
-  color: #007c91; }
-
-/* características del texto que acompaña cada sección */
-.texto {
-  font-size: 18px;
-  font-weight: bold;
-  color: black;
-  font-style: italic;
-  text-align: justify;
-  line-height: 1.6;
-  position: relative; }
-
-/*propiedades de la página descargas*/
+/*Propiedades del hero de la página de videotutoriales*/
+/*Propiedades del hero - página descargas*/
 .hero__descargas {
   background-image: url(https://www.actualidadiphone.com/wp-content/uploads/2017/01/appstore-descargas.jpg);
   width: 100%;
@@ -88,39 +63,9 @@ html {
   background-position: center;
   padding-top: 240px; }
 
-.descargas__contenedor {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "stickers stickers" "rúbricas rúbricas";
-  column-gap: 150px;
-  row-gap: 1px;
-  justify-items: stretch;
-  justify-content: center; }
-
-.stickers {
-  background-color: #f98b00;
-  height: 380px;
-  width: 400px; }
-
-.rúbricas {
-  background-color: #00acc1;
-  height: 380px;
-  width: 400px;
-  position: relative;
-  text-align: center; }
-
-.secciones__blanco {
-  font-size: 23px;
-  font-weight: bold;
-  text-align: center;
-  color: white; }
-
-.stickers {
-  position: relative;
-  text-align: center; }
-
-/*terminan propiedades de la página descargas*/
-/* propiedades página FAQs*/
+/*Fin propiedades del hero - página descargas*/
+/*Propiedades página FAQs*/
+/*Propiedades del hero página FAQs*/
 .hero__faqs {
   background-image: url(https://www.ancbroker.com/blog/slide/30326/%E0%B8%9B%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg);
   width: 100%;
@@ -130,6 +75,8 @@ html {
   background-position: center;
   padding-top: 50px; }
 
+/*Fin propiedades del hero página FAQs*/
+/*Propiedades del texto página FAQs*/
 .preguntas {
   display: flex;
   flex-direction: row;
@@ -139,7 +86,8 @@ html {
   height: 500px;
   width: 1020px; }
 
-/*propiedades página contacto*/
+/*Fin propiedades del texto página FAQs*/
+/*Propiedades página contacto*/
 .hero__contacto {
   background-image: url(http://www.ctec.com.ar/new/images/cursos/fondo-marketing-digital.jpg);
   width: 100%;
@@ -149,67 +97,8 @@ html {
   background-position: bottom center;
   padding-top: 280px; }
 
-.título__form {
-  margin-left: 250px; }
-
-.form__container {
-  width: 900px;
-  height: 600px;
-  margin-left: 250px;
-  margin-right: 250px; }
-
-.contacto {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  width: 1020px; }
-
-.formulario {
-  background-color: #ffbc45;
-  padding: 10px;
-  font-size: 20px;
-  line-height: 1.6;
-  height: 250px;
-  width: 490px; }
-
-.formulario h1 {
-  font-size: 22px; }
-
-/*transiciones de la página de contacto*/
-.formulario input {
-  width: 100px;
-  height: 25px;
-  transition: all 2s; }
-
-.formulario input:focus {
-  width: 120px;
-  font-size: 24px; }
-
-.opciones__radio {
-  display: inline;
-  width: 10px;
-  height: 20px;
-  transition: height 2s, width 1s; }
-
-.opciones__radio:hover {
-  height: 21px;
-  width: 11px; }
-
-.botón {
-  width: 100px;
-  height: 30px;
-  transition: all 2s; }
-
-.botón:hover {
-  height: 40px;
-  width: 110px;
-  padding: 20px;
-  background-color: #007c91; }
-
-/* página acerca */
+/*Fin propiedades página contacto*/
+/*Propiedades decorativas del hero - página acerca*/
 .hero__acerca {
   background-image: url("https://www.impulsonegocios.com/wp-content/uploads/2019/04/bienestar-digital-nokia-DEF.jpg");
   width: 100%;
@@ -221,40 +110,9 @@ html {
   .hero__acerca p {
     margin: 10px; }
 
-.text__color__principal {
-  color: #007c91; }
-
-/*propiedades de foto */
-.foto__app {
-  position: relative;
-  text-align: center; }
-
-/* propiedades de tabla comparativa*/
-#tabla {
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  width: 800px;
-  margin: 0 auto; }
-
-#tabla th {
-  border-bottom: 1px solid #000000;
-  padding: 2px;
-  text-align: center; }
-
-#tabla td {
-  padding: 2px;
-  text-align: center; }
-
-/* fin de propiedades de tabla comparativa */
-.título__general__negro {
-  font-size: 23px;
-  font-weight: bold;
-  text-align: center;
-  color: #000000; }
-
-/*propiedades de página consejos*/
+/*Fin propiedades decorativas del hero - página acerca*/
+/*Propiedades de página consejos*/
+/*Propiedades del hero - página consejos*/
 .hero__consejos {
   background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20180430171538-consejos.jpeg?width=700&crop=2:1);
   width: 100%;
@@ -264,10 +122,9 @@ html {
   background-position: center;
   padding-top: 120px; }
 
-.iframe {
-  text-align: center; }
-
-/* propiedades decorativas de la página videotutoriales*/
+/*Fin propiedades del hero - página consejos*/
+/*Fin propiedades de página consejos*/
+/*Propiedades decorativas de la página videotutoriales*/
 .hero__videotutoriales {
   background-image: url(https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/EdTech/201711/%20Rogotanie_Video.jpg?itok=ciXfIJVy);
   width: 100%;
@@ -281,3 +138,5 @@ html {
   width: 100%;
   height: 700px;
   background-image: linear-gradient(to bottom, #007c91, #f98b00); }
+
+/*Fin propiedades decorativas de la página videotutoriales*/

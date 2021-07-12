@@ -55,58 +55,60 @@
      </div>
     <main>
         <!--Hero Página Contacto-->
-        <section class= "hero__contacto">
-          <div class= "container">
-            <h1 class= "display-4 fw-bold text-dark">One-In App Docente:</h1>
+        <div class= "hero__contacto">
+          <div class= "container"> 
             <div class="row">
-              <div class="col-md-7">
+             <div class="col-12">
+              <h1 class= "display-4 fw-bold text-light text-right">One-In App Docente:</h1>
                 <p class= "fs-4 text-white"><em>La app que te acompaña. Tu opinión y consultas cuentan. Contáctanos.</em></p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       <!--Fin Hero Página Contacto-->
-      <main>
-        <div class="container"><!-- Formulario de contacto-->
-          <h2 class="título__form display-7 fw-bold text-dark"> Contáctenos</h2>
-          <!--Campos del formulario-->
-        <div class="form__container">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Nombre y apellido</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-        </div>
-        <div> <p class="fs-5 fw-bold">Perfil</p></div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Docente
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-          <label class="form-check-label" for="flexRadioDefault2">
-            Estudiante
-          </label>
-        </div>
-        <div><p class="fs-5 fw-bold">Usted se desempeña en:</p></div>
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-          <option selected>Selecciona tu nivel educativo</option>
-          <option value="1">Primario</option>
-          <option value="2">Secundario</option>
-          <option value="3">Superior</option>
-        </select>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Consulta</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="button" class="btn btn-info btn-sm fs-5 fw-bold">Enviar</button>
-        <button type="button" class="btn btn-warning btn-sm fs-5 fw-bold">Limpiar formulario</button>
-        </div>
-      </div>
+      <!-- Formulario de contacto-->
+          <form>
+            <div class="form-row">
+              <h2 class="título__form display-7 fw-bold text-dark"> Contáctenos</h2>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Nombre y apellido</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="form-group">
+              <p class="fs-5 fw-bold">Perfil</p></div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Docente
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Estudiante
+                </label>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="nivel educativo" class="fs-5 fw-bold">Usted se desempeña en:</label>
+                <select id="nivel educativo" class="form-control">
+                  <option selected>Selecciona tu nivel educativo</option>
+                  <option value="1">Primario</option>
+                  <option value="2">Secundario</option>
+                  <option value="3">Superior</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-info btn-sm fs-5 fw-bold">Enviar</button>
+              <button type="button" class="btn btn-warning btn-sm fs-5 fw-bold">Limpiar formulario</button>
+              </div>
+              <br>
       </main>
      <!--Fin Formulario de contacto-->
      <!-- Footer -->

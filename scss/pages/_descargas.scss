@@ -1,4 +1,4 @@
-/*propiedades de la página descargas*/
+/*Propiedades del hero - página descargas*/
 .hero__descargas {
   background-image: url(https://www.actualidadiphone.com/wp-content/uploads/2017/01/appstore-descargas.jpg);
   width: 100%;
@@ -8,38 +8,4 @@
   background-position: center;
   padding-top: 240px;
 }
-
-.descargas__contenedor {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "stickers stickers"
-    "rúbricas rúbricas";
-  column-gap: 150px;
-  row-gap: 1px;
-  justify-items: stretch;
-  justify-content: center;
-}
-.stickers {
-  background-color: #f98b00;
-  height: 380px;
-  width: 400px;
-}
-.rúbricas {
-  background-color: #00acc1;
-  height: 380px;
-  width: 400px;
-  position: relative;
-  text-align: center;
-}
-.secciones__blanco {
-  font-size: 23px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-.stickers {
-  position: relative;
-  text-align: center;
-}
-/*terminan propiedades de la página descargas*/
+/*Fin propiedades del hero - página descargas*/
